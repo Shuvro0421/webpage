@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    background-color: rgb(42, 42, 42);
+    padding: 5px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+
+}
+.item{
+    margin: 10px -5px 10px 200px;
+
+    font-size: 20px;
+}
+.item:hover{
+    color: crimson;
+    cursor: pointer;
+
+}
+.logo-photo{
+    width: 300px;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(./images/background.jpg);
+    /* linear-gradient(40deg,black,black); */
+    color: white;
+    
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.btn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+.btn:hover{
+    color: crimson;
+    background-color: white;
+    cursor: pointer;
+}
